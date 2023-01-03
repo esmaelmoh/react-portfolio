@@ -1,0 +1,157 @@
+/* .service-container{
+    height: 100vh;
+} */
+.services-title{
+    font-family: 'Poppins';
+    font-size: 3rem;
+    color: wheat;
+    font-weight: bold;
+
+}
+
+
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.services-title:first-of-type {
+    font-family: 'Poppins';
+    font-size: 4rem;
+    font-weight: bold;
+    color: #370664;
+
+}
+
+
+@media (max-width: 400px) {
+    .services-title {
+        font-size: 1.5rem;
+    }
+}
+
+.header {
+    text-align: center;
+    line-height: 0.8;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.header p {
+    margin: 0 auto;
+    line-height: 2;
+    color: hsl(229, 6%, 66%);
+}
+
+
+.box p {
+    color: hsl(229, 6%, 66%);
+}
+
+.box {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px #522da854;
+    /* box-shadow: 0px 30px 40px -20px #522da854; */
+    padding: 30px;
+    margin: 20px;  
+}
+
+img {
+    float: right;
+}
+
+.cyan {
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.red {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.blue {
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+.orange {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+h2 {
+    color: hsl(234, 12%, 34%);
+    font-weight:600;
+}
+
+
+@media (min-width: 950px) {
+    .row1-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .row2-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-down {
+        position: relative;
+        top: 150px;
+    }
+    .box {
+        width: 28%;
+        /* /width: 24%; */
+     
+    }
+    .header p {
+        width: 30%;
+    }
+    
+}
+
+.btn {
+    background-color: #2A265F;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+}
+@media  (max-width: 540px) {
+    .services-title:first-of-type {
+        font-size: 3rem;
+        color: #370664;
+    
+    }
+        .box{
+        height: 300px;
+        box-shadow: 0px 30px 40px -20px #522da81e;
+        padding: 40px;
+        margin: 40px;  
+        }
+
+}
+@media  (max-width: 390px) {
+    .services-title:first-of-type {
+        font-size: 3rem;
+        color: #370664;
+    
+    }
+        .box{
+        height: 400px;
+        box-shadow: 0px 30px 40px -20px #522da81e;
+        padding: 40px;
+        margin: 40px;  
+        }
+
+}

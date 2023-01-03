@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'newfont';
+  src:url(../../fonts/JosefinSans-VariableFont_wght.ttf) 
+}  
+.nav-container{
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #673AB7, #512DA8);
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0.5rem calc((100vw - 1200px) / 2); */
+  padding: 0.5rem 0;
+  /* padding-right: calc((100vw - 1400px) / 2); */
+  /* padding-left: calc((100vw - 1500px) / 2); */
+  z-index: 10;
+}
+.esam-logo{
+ height: 45px;
+ margin-top: 1rem;
+ margin-left: 8rem;
+}
+li{
+  /* color: #55379b; */
+  color: rgba(255, 255, 255, 0.671);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 2rem;
+  font-family: 'newfont';
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  height: 100%;
+  cursor: pointer;
+  list-style:none;
+}
+li:hover{
+  color: white;
+}
+.links-list{
+  display: flex;
+  align-items: center;
+  margin-right: 10rem;
+}
+.signInBtn{
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.nav-sign-btn{
+  border-radius: 4px;
+  background: #256ce1;
+  padding: 10px 22px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+@media  (max-width: 1024px) {
+  .esam-logo{
+    margin-left: 4rem;
+   }
+   .links-list{
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+  }
+}
+@media  (max-width: 540px) {
+  .esam-logo{
+    margin-left: 2rem;
+   }
+   .links-list{
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+    display: none;
+  }
+}
