@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import {useState} from 'react'
+import {AiOutlineBars} from 'react-icons/ai'
 const Navbar = () => {
+  const [open , setOpen] = useState(false)
   return (
     <>
     <nav className='nav-container'>
@@ -13,9 +16,7 @@ const Navbar = () => {
         <li>Contact Us</li>
         {/* <li>Sign Up</li> */}
       </div>
-      {/* <div className="signInBtn">
-        <li className='nav-sign-btn'>Sign In</li>
-      </div> */}
+      <h1><AiOutlineBars/></h1>
     </nav>
     </>
   )

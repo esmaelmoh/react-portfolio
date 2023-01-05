@@ -66,16 +66,44 @@
 }
 .developer{
    align-self:center;
+   text-align: center;
    color:white;
    padding-bottom:0rem;
    font-family:"Poppins"
 }
+@media  (max-width: 1200px) {
+ 
+}
+@media  (max-width: 1024px) {
+ 
+}
+
+@media  (max-width: 900px) {
+
+}
+@media  (max-width: 786px) {
+    .foot-logo img{
+        width: 20rem;
+    }
+}
+@media  (max-width: 480px) {
+    .foot-logo img{
+        width: 20rem;
+    }
+}
+@media  (max-width: 320px) {
+ 
+}
+
+
+
+
+
+
+
 
 /* @media  (max-width: 1121px) {
-    .s-link{
-        margin: 0 2rem;
-    }
-    
+ 
   }
   @media  (max-width: 950px) {
     .foot-logo img{

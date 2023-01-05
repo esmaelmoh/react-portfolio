@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { HiPlusSm } from 'react-icons/hi'
 import { GrFormClose } from 'react-icons/gr'
 import { CgClose } from 'react-icons/cg'
-import './FaqCard.css'
 const FaqCard = ({item}) => {
   const [show , setShow] = useState(false)
 
