@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <hr  className='horizontal-line'/>
         <br />
-        <p className='developer'>Developed by <span style={{color:'rgb(255, 0, 106)'}}>Esmael Mohammed</span>  | © ESAM Technologies</p>
+        <p className='developer' >Developed by <span style={{color:'rgb(255, 0, 106)'}}>Esmael Mohammed</span>  | © ESAM Technologies</p>
         <br />
     </div>
   )

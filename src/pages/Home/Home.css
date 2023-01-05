@@ -83,6 +83,7 @@
   .showcase-container{
     padding: 10rem 0;
     padding-left:8rem;
+    padding-top: 10rem;
     gap: 5rem;
 }
 .show-image-container img{
@@ -106,6 +107,8 @@
   }
   .showcase-container{
     padding: 9rem 0;
+    padding-top: 10rem;
+
     padding-left:8rem;
 }
 }
@@ -123,6 +126,8 @@
     }
     .showcase-container{
       padding: 6rem 0;
+    padding-top: 10rem;
+
     }
     .show-image-container img{
       width: 30rem;
@@ -139,6 +144,8 @@
     }
     .showcase-container{
       padding: 6rem 0;
+    padding-top: 10rem;
+
     }
     .show-image-container img{
       width: 25rem;
@@ -155,6 +162,8 @@
     }
     .showcase-container{
       padding: 6rem 0;
+    padding-top: 10rem;
+
     }
     .show-text h3{
       font-size: 0.8rem;

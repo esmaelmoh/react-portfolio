@@ -3,16 +3,16 @@
   src:url(../../fonts/JosefinSans-VariableFont_wght.ttf) 
 }  
 .nav-container{
-  background: rgb(255, 255, 255);
+  /* background: rgb(0, 0, 0); */
   background: linear-gradient(90deg, #673AB7, #512DA8);
   height: 75px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  /* padding: 0.5rem calc((100vw - 1200px) / 2); */
+  position: relative;
   padding: 0.5rem 0;
-  /* padding-right: calc((100vw - 1400px) / 2); */
-  /* padding-left: calc((100vw - 1500px) / 2); */
   z-index: 10;
+  position:fixed;
 }
 .esam-logo{
  height: 45px;
@@ -34,10 +34,15 @@ li{
   cursor: pointer;
   list-style:none;
 }
+nav a{
+  text-decoration: none;
+  color: white;
+}
 li:hover{
   color: white;
 }
-.links-list{
+.links-list nav{
+  padding-top: 1.3rem;
   display: flex;
   align-items: center;
   margin-right: 10rem;
@@ -58,6 +63,19 @@ li:hover{
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 }
+.menu-bar{
+  color:white;
+  width: 3rem;
+  height: 35px;
+ margin-top: 1rem;
+ margin-right: 1rem;
+ display: none;
+ /* padding-right: 8rem; */
+}
+.show-links nav li{
+  
+}
+
 @media  (max-width: 1024px) {
   .esam-logo{
     margin-left: 4rem;
@@ -65,27 +83,60 @@ li:hover{
    .links-list{
     display: flex;
     align-items: center;
-    margin-right: 5rem;
+    margin-right: 3rem;
+    padding-right: 5rem;
   }
 }
-@media  (max-width: 540px) {
-  .esam-logo{
-    margin-left: 2rem;
-   }
-   .links-list{
-    display: flex;
-    align-items: center;
-    margin-right: 5rem;
-    display: none;
-  }
-}
+
 @media  (max-width: 1200px) {
  
 }
 @media  (max-width: 1024px) {
+  .esam-logo{
+    margin-left: 2rem;
+   }
   .links-list{
-    display: none;
+    position: absolute;
+    top:75px;
+    right: 0px;
+    width: 100%;
+    height: calc(100vh-75px);
+    height: 95vh;
+    margin-right: -1000px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: #522da891;
+    backdrop-filter: blur(15px);
+    flex-direction: column;
+    /* transition: all 0.5s cubic-bezier(1,0,1,0); */
+    transition: all 0.5s ease-in-out;
+
   }
+  .links-list nav{
+    margin: 0 auto;
+padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .links-list nav li{
+    padding: 1rem;
+    color: #512DA8;
+    color: white;
+  }
+  .menu-bar{
+    display: block;
+  }
+  .show-links{
+    position: fixed;
+    margin-right:0px ;
+    /* transition: all 2s cubic-bezier(1,0,1,0); */
+    transition: all 0.5s ease-in-out;
+
+
+}
 }
 
 @media  (max-width: 900px) {
