@@ -5,11 +5,11 @@ import './FAQ.css'
 const FAQ = () => {
   return (
     <>
-      <h1 className='faq-title-one'>Why <span style={{color:'#d19efa'}}>ESAM</span> </h1>
+      <h1 className='faq-title-one'>Why <span style={{color:'#512DA8'}}>ESAM</span> </h1>
       <h2 className='faq-title-two'>We Achieved People’s Trust By Our Great Service</h2>
     <div className='faq-container'>
       <div className="faq-img-container">
-      <img src="images/faq-question-img.png" data-aos="fade-up"
+      <img src="images/faq-question-img2.png" data-aos="fade-up"
      data-aos-anchor-placement="top-bottom" data-aos-duration="3000" alt="" />
       </div>
       <div className="faq-answers">

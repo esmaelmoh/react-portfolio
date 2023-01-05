@@ -18,6 +18,8 @@
     margin-top: 3rem;
     /* background: linear-gradient(90deg, #512DA8, #673AB7); */
     background:linear-gradient(90deg, #854cb4,#a070d6 );
+    background: linear-gradient(90deg, #673AB7, #512DA8);
+
 
 }
 .foot-container div{
@@ -36,7 +38,7 @@
     padding: 1rem;
     width: 30rem;
     flex: 2;
-    box-shadow: #7643a0 0px 3px 7px;
+    /* box-shadow: #7643a0 0px 3px 7px; */
 }
 .foot-contact{
     font-family: Helvetica, sans-serif;

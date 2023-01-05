@@ -1,6 +1,8 @@
 .partners-container2{
     background:linear-gradient(90deg, #d19efa,#efe3fd );
     background:linear-gradient(90deg, #854cb4,#a070d6 );
+    background: linear-gradient(90deg, #673AB7, #512DA8);
+
     margin-bottom: 6rem;
     margin-top: 6rem;
     display: flex;
