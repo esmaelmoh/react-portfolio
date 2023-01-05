@@ -1,14 +1,20 @@
 .about-container{
-    /* width: 100vw; */
-    /* height: 100vh; */
     display: flex;
+    overflow:hidden;
+    gap: 5rem;
     align-items: center;
     padding: 8rem 7rem;
-    padding-left: 2rem;
+    padding-bottom: 6rem;
     justify-content: space-between;
 }
 .about-content-container{
-    width: 53%;
+    flex: 3;
+}
+.about-img-container{
+    flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .about-content-container h1{
     font-size: 3rem;
@@ -23,18 +29,17 @@
     color: rgba(0, 0, 0, 0.507);
     font-family:'Poppins';
 }
-.about-img-container{
-    width: 40%;
-}
+
 .about-img-container img{
+    padding: 4rem;
     color: #370664;
-    width: 30rem;
+    max-width: 100%;
 }
 .about-title{
     text-align: center;
     font-size: 4rem;
 }
-@media  (max-width: 1280px) {
+/* @media  (max-width: 1280px) {
     .about-img-container{
         width: 35%;
         margin-left: 6rem;
@@ -131,4 +136,4 @@
         margin-bottom: 1rem;
         font-size: 1rem;
     }
-  }
+  } */

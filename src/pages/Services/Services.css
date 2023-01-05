@@ -8,34 +8,9 @@
     font-weight: bold;
 
 }
-
-
-body {
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    background-color: hsl(0, 0%, 98%);
-}
-
-.attribution { 
-    font-size: 11px; text-align: center; 
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
-.services-title:first-of-type {
-    font-family: 'Poppins';
-    font-size: 4rem;
-    font-weight: bold;
-    color: #370664;
-
-}
-
-
-@media (max-width: 400px) {
-    .services-title {
-        font-size: 1.5rem;
-    }
+.service-container{
+    overflow: hidden;
+    padding-bottom: 4rem;
 }
 
 .header {
@@ -50,22 +25,38 @@ body {
     line-height: 2;
     color: hsl(229, 6%, 66%);
 }
+.services-title:first-of-type {
+    font-family: 'Poppins';
+    font-size: 4rem;
+    font-weight: bold;
+    color: #370664;
 
+}
 
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
 .box p {
     color: hsl(229, 6%, 66%);
+    margin-bottom: 3rem;
 }
 
 .box {
     border-radius: 5px;
     box-shadow: 0px 30px 40px -20px #522da854;
-    /* box-shadow: 0px 30px 40px -20px #522da854; */
-    padding: 30px;
-    margin: 20px;  
+    padding: 2rem;
+    position: relative;
+    margin: 1.8rem;  
 }
 
-img {
-    float: right;
+.box img {
+    align-self: flex-end;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    padding-top: 3rem;
 }
 
 .cyan {
@@ -86,7 +77,6 @@ h2 {
     font-weight:600;
 }
 
-
 @media (min-width: 950px) {
     .row1-container {
         display: flex;
@@ -105,28 +95,11 @@ h2 {
     }
     .box {
         width: 28%;
-        /* /width: 24%; */
      
     }
-    .header p {
-        width: 30%;
-    }
-    
 }
 
-.btn {
-    background-color: #2A265F;
-	border: 0;
-	border-radius: 50px;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-	color: #fff;
-	font-size: 16px;
-	padding: 12px 25px;
-	position: absolute;
-	bottom: 30px;
-	right: 30px;
-	letter-spacing: 1px;
-}
+
 @media  (max-width: 540px) {
     .services-title:first-of-type {
         font-size: 3rem;
@@ -134,14 +107,13 @@ h2 {
     
     }
         .box{
-        height: 300px;
         box-shadow: 0px 30px 40px -20px #522da81e;
         padding: 40px;
         margin: 40px;  
         }
 
 }
-@media  (max-width: 390px) {
+/* @media  (max-width: 390px) {
     .services-title:first-of-type {
         font-size: 3rem;
         color: #370664;
@@ -155,3 +127,10 @@ h2 {
         }
 
 }
+
+@media (max-width: 400px) {
+    .services-title {
+        font-size: 1.5rem;
+    }
+}
+ */

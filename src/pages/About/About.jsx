@@ -3,10 +3,9 @@ import './About.css'
 const About = () => {
   return (
     <>
-    {/* <h1 className='about-title'>About Us</h1> */}
     <div className='about-container'>
-      <div className="about-img-container"data-aos="fade-up-right" data-aos-duration="1500" >
-        <img src="images/about.png" alt="" />
+      <div className="about-img-container" >
+        <img src="images/about.png" alt="" data-aos="fade-up-right" data-aos-duration="1500"/>
       </div>
       <div className="about-content-container">
           <h1>About</h1>
